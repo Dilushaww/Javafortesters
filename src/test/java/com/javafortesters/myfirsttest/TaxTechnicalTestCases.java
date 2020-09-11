@@ -18,7 +18,7 @@ public class TaxTechnicalTestCases {
 
 
     @Before    public void setUp() throws Exception {
-        //System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");//
+        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(url);
